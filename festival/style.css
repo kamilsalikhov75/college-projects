@@ -1,0 +1,352 @@
+body,
+h4,
+h3,
+h2,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #190b2e;
+}
+
+.title {
+  font-family: 'Sofia Sans Extra Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 58px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.title--green {
+  color: #addb02;
+}
+
+.title--pink {
+  color: #ff567e;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.header {
+  background-image: url('images/header-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.header__navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.header__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__logo {
+  height: 50px;
+}
+
+.header__image-block {
+  width: 100%;
+}
+
+.header__info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.header__info-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+  border-radius: 30px;
+  background-color: #312345;
+}
+
+.header__info-text {
+  max-width: 400px;
+}
+
+.header__date-block {
+  padding: 40px 20px;
+  border-radius: 30px;
+  background-color: #312345;
+}
+
+.header__date-title {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.header__dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.header__date {
+  width: fit-content;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.header__date--pink {
+  background: #ff4e78;
+  transform: rotate(5.8deg);
+}
+
+.header__date--blue {
+  background: #306ef9;
+  transform: rotate(-9.7deg);
+}
+
+.header__date--green {
+  background: #addb02;
+}
+
+.header__date-geo {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.artists {
+  background-color: #190b2e;
+}
+
+.artists__titles {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.artists__list {
+  list-style: none;
+}
+
+.artist__item {
+  padding: 20px 0;
+  width: 100%;
+  background-color: #312345;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.artist__item + .artist__item {
+  margin-top: 20px;
+}
+
+.registration {
+  background-color: #2d1d44;
+}
+
+.registration__form-block {
+  background-color: #fff;
+}
+
+.registration__form {
+  width: 100%;
+}
+
+.tickets {
+  background-image: url('images/header-background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tickets__block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.ticket__card {
+  padding: 15px;
+  width: 290px;
+  height: 520px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #306ef9;
+}
+
+.ticket__card--green {
+  background-color: #addb02;
+}
+
+.ticket__card--pink {
+  background-color: #ff567e;
+}
+
+.ticket__card-title {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.ticket__card-subtitle {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #b9b9b9;
+}
+
+.ticket__card-text {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.ticket__card-price {
+  font-family: 'Sofia Sans Extra Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.registration__input,
+.registration__select,
+.registration__button {
+  background: #1b0c2f;
+  border: none;
+  border-radius: 20px;
+  padding: 19px;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.registration__input {
+  width: calc(100% - 38px);
+}
+
+.registration__input,
+.registration__input::placeholder,
+.registration__select,
+.registration__button {
+  color: #ffffff;
+}
+
+.registration__button {
+  cursor: pointer;
+  background-color: #addb02;
+}
+
+.clips__block,
+.artist-images__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.clips iframe {
+  max-width: 550px;
+  width: 100%;
+}
+
+.artist-images__card {
+  position: relative;
+}
+
+.artist-images__img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.artist-images__text {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+  margin: 0 auto;
+  width: 100%;
+  background: rgba(81, 81, 81, 0.7);
+}
+
+.camping .header__info{
+  margin-bottom: 20px;
+}
+
+.camping__images{
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.camping__image{
+  width: 400px;
+}
+
+.camping__link{
+  color: #ffffff;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  padding: 19px;
+  background-color: #addb02;
+  border: none;
+  border-radius: 20px;
+  padding: 19px;
+  width: 100%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+  text-decoration: none;
+}

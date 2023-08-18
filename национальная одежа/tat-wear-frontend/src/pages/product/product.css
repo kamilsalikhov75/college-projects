@@ -1,0 +1,28 @@
+.product__content {
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product__block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.product__price {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.product__img{
+  width: 300px;
+}

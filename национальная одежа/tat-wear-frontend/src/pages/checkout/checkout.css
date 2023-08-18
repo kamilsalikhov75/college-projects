@@ -1,0 +1,90 @@
+.checkout__products {
+  margin-bottom: 20px;
+}
+
+.checkout__block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+.checkout__price {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.checkout__inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkout__input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #000000;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.message__block {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.message__title {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: #000000;
+}
+.message__text {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.message__button {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

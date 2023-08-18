@@ -1,0 +1,26 @@
+.catalog__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+}
+
+.catalog__category-text {
+  position: absolute;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  bottom: 20px;
+  left: 20px;
+}

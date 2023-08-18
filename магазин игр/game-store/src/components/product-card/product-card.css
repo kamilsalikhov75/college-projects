@@ -1,0 +1,30 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #bababa;
+  border-radius: 4px;
+  width: 222px;
+  height: 386px;
+}
+
+.product-card__img-link {
+  height: 210px;
+}
+
+.product-card__link {
+  font-style: normal; 
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #bababa;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card__img {
+  width: 162px;
+}

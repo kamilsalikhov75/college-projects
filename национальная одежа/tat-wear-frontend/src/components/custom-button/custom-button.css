@@ -1,0 +1,13 @@
+.button {
+  padding: 10px;
+  background-color: #000000;
+  border: none;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  text-align-last: left;
+  cursor: pointer;
+}

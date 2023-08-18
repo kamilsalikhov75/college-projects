@@ -1,0 +1,29 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  min-height: calc(100vh - 268px);
+}
+
+.title {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text{
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 10px;
+}

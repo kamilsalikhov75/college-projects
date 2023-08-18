@@ -1,0 +1,15 @@
+.home__categories-block {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.home__products-block {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+.home__categories {
+  margin-bottom: 40px;
+}

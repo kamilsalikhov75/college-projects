@@ -1,0 +1,49 @@
+.cart__product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart__product-img {
+  width: 60px;
+}
+
+.cart__product-link,
+.cart__product-price {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.cart__product-counter {
+  display: flex;
+}
+
+.cart__product-button {
+  width: 30px;
+  height: 38px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.cart__product-button--trash{
+  margin-left: 10px;
+}
+
+.cart__product-count {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  padding: 10px 17px;
+}

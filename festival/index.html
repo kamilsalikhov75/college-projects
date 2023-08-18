@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Музыкальный фестиваль</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sofia+Sans+Extra+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header name="header" class="header">
+      <div class="container">
+        <nav class="header__navigation">
+          <a href="#artists" class="header__link">Список артистов</a>
+          <a href="#artists-images" class="header__link">Фотографии артистов</a>
+          <a href="#clips" class="header__link">Записи концертов</a>
+          <a href="#tickets" class="header__link">Билеты</a>
+          <a href="#registration" class="header__link">Запись на фестиваль</a>
+        </nav>
+        <div class="header__content">
+          <img
+            src="images/slogan.png"
+            alt="Слоган"
+            class="header__image-block"
+          />
+          <div class="header__info">
+            <div class="header__info-block">
+              <img
+                src="images/smile.svg"
+                alt="Иконка смайла"
+                class="header__info-img"
+              />
+              <p class="header__info-text">
+                В Набережных Челнах пройдет трех дневный музыкальный фестиваль,
+                на который приедут самые крутые артисты музыкальной индустрии.
+                Не пропусти данное событие!
+              </p>
+            </div>
+            <div class="header__info-block">
+              <img
+                src="images/smile.svg"
+                alt="Иконка смайла"
+                class="header__info-img"
+              />
+              <p class="header__info-text">
+                Помимо музыки на фестивале будет много разнообразной еды от
+                лучших шефов города, а также проживание в палатках.
+              </p>
+            </div>
+            <div class="header__date-block">
+              <h4 class="header__date-title">Июнь 2023</h4>
+              <div class="header__dates">
+                <p class="header__date header__date--pink">21</p>
+                <p class="header__date header__date--blue">22</p>
+                <p class="header__date header__date--green">23</p>
+              </div>
+              <div class="header__date-geo">
+                <img
+                  src="images/geo.svg"
+                  alt="Иконка геолокации"
+                  class="header__date-icon"
+                />
+                <p class="header__geo-text">Набережные Челны</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="artists" class="artists">
+      <div class="container">
+        <div class="artists__titles">
+          <h2 class="title title--green">СПИСОК</h2>
+          <h2 class="title title--pink">АРТИСТОВ</h2>
+        </div>
+        <ul class="artists__list">
+          <li class="artist__item">Дайте танк (!)</li>
+          <li class="artist__item">The Hatters</li>
+          <li class="artist__item">нежность на бумаге</li>
+          <li class="artist__item">PALC</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="artists-images" class="artist-images">
+      <div class="container">
+        <h2 class="title title--pink">ФОТОГРАФИИ АРТИСТОВ</h2>
+        <div class="artist-images__block">
+          <div class="artist-images__card">
+            <img src="./images/tank.jpeg" class="artist-images__img" />
+            <p class="artist-images__text">Дайте танк (!)</p>
+          </div>
+          <div class="artist-images__card">
+            <img src="./images/hatters.jpeg" class="artist-images__img" />
+            <p class="artist-images__text">The Hatters</p>
+          </div>
+          <div class="artist-images__card">
+            <img src="./images/nezhnost.jpeg" class="artist-images__img" />
+            <p class="artist-images__text">нежность на бумаге</p>
+          </div>
+          <div class="artist-images__card">
+            <img src="./images/palc.jpeg" class="artist-images__img" />
+            <p class="artist-images__text">PALC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="clips" class="clips">
+      <div class="container">
+        <h2 class="title title--green">ЗАПИСИ КОНЦЕРТОВ</h2>
+        <div class="clips__block">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/05bvHqXVklI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/pagsOYPS_NQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/WzTK8gpR1KM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/78dnO0cY5rA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="camping">
+      <div class="container">
+        <h2 class="title title--pink">ФЕСТИВАЛЬНЫЙ КЕМПИНГ</h2>
+        <div class="header__info">
+          <div class="header__info-block">
+            <img
+              src="images/smile.svg"
+              alt="Иконка смайла"
+              class="header__info-img"
+            />
+            <p class="header__info-text">
+              Кемпинг на территории фестиваля — это самый близкий к сценам и
+              комфортный вариант проживания. Здесь вы можете остановиться со
+              своей палаткой, билет «Место под палатку» дает право на установку
+              палатки на площади 4×3 м. на все дни фестиваля.
+            </p>
+          </div>
+          <div class="header__info-block">
+            <img
+              src="images/smile.svg"
+              alt="Иконка смайла"
+              class="header__info-img"
+            />
+            <p class="header__info-text">
+              На фестивале палаточный лагерь разделен на тихий «Семейный»,
+              «Веселый» и «Меломан» — вы сможете выбрать наиболее
+              привлекательный для вас. Мы заботимся о комфорте наших слушателей,
+              поэтому на территории семейного лагеря вы найдете Комнату матери и
+              ребенка, которая укомплектована: стиральными машинами и сушилками
+              для одежды, отдельными туалетами для детей, пеленальными столиками
+              с инфракрасными лампами обогрева, микроволновками и холодильниками
+              — всем необходимым для заботы о детях!
+            </p>
+          </div>
+        </div>
+        <ul class="artists__list">
+          <li class="artist__item">Бесплатные душевые</li>
+          <li class="artist__item">Питьевые фонтанчики и бесплатный кипяток</li>
+          <li class="artist__item">Освещённые улицы с названиями</li>
+          <li class="artist__item">Места для зарядки гаджетов</li>
+          <li class="artist__item">Бесплатный Wi-Fi в шаговой доступности</li>
+        </ul>
+        <div class="camping__images">
+          <img src="./images/camping-1.jpeg" class="camping__image">
+          <img src="./images/camping-2.jpeg" class="camping__image">
+          <img src="./images/camping-3.jpeg" class="camping__image">
+        </div>
+        <a href="#registration" class="camping__link">Забронировать</a>
+      </div>
+    </div>
+
+    <div id="tickets" class="tickets">
+      <div class="container">
+        <h2 class="title title--green">БИЛЕТЫ</h2>
+        <div class="tickets__block">
+          <div class="ticket__card">
+            <h3 class="ticket__card-title">
+              Парный Взрослый Абонемент + Место под палатку
+            </h3>
+            <h4 class="ticket__card-subtitle">
+              Абонемент для двух лиц от 13 лет и старше.
+            </h4>
+            <p class="ticket__card-text">
+              Дает право посещения фестиваля и всех его гостевых зон
+              неограниченное количество раз и установку одной палатки в кемпинге
+              фестиваля в течение всей его длительности.
+            </p>
+            <p class="ticket__card-price">11 000 ₽</p>
+          </div>
+          <div class="ticket__card ticket__card--green">
+            <h3 class="ticket__card-title">Взрослый Абонемент</h3>
+            <h4 class="ticket__card-subtitle">
+              Абонемент для лиц от 13 лет и старше.
+            </h4>
+            <p class="ticket__card-text">
+              Дает право посещения фестиваля и всех его гостевых зон
+              неограниченное количество раз и установку одной палатки в кемпинге
+              фестиваля в течение всей его длительности.
+            </p>
+            <p class="ticket__card-price">5 500 ₽</p>
+          </div>
+          <div class="ticket__card ticket__card--pink">
+            <h3 class="ticket__card-title">Детский Абонемент</h3>
+            <h4 class="ticket__card-subtitle">
+              Абонемент для лиц от 6 до 12 лет включительно.
+            </h4>
+            <p class="ticket__card-text">
+              Дает право посещения фестиваля и всех его гостевых зон
+              неограниченное количество раз и установку одной палатки в кемпинге
+              фестиваля в течение всей его длительности.
+            </p>
+            <p class="ticket__card-price">2 750 ₽</p>
+          </div>
+          <div class="ticket__card">
+            <h3 class="ticket__card-title">Место под палатку</h3>
+            <h4 class="ticket__card-subtitle">Максимальный размер 4х3м.</h4>
+            <p class="ticket__card-text">
+              Дает право установки одной палатки в кемпинге фестиваля в течение
+              всей его длительности.
+            </p>
+            <p class="ticket__card-price">1 750 ₽</p>
+          </div>
+          <div class="ticket__card ticket__card--green">
+            <h3 class="ticket__card-title">Место на парковке</h3>
+            <h4 class="ticket__card-subtitle">Для легкового авто</h4>
+            <p class="ticket__card-text">
+              Дает право парковки одного легкового автомобиля в течение всей
+              длительности фестиваля.
+            </p>
+            <p class="ticket__card-price">1 500 ₽</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="registration" class="registration">
+      <div class="container">
+        <h2 class="title title--pink">Бронирование</h2>
+        <form
+          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeyEbGFNDT6D8BBK0av_6o3-RnshYfF7Nv_iBVasF8OzNEFRA/formResponse"
+          class="registration__form"
+        >
+          <input
+            class="registration__input"
+            name="entry.1472975380"
+            type="text"
+            required
+            placeholder="Имя"
+          />
+
+          <input
+            class="registration__input"
+            name="entry.1887024331"
+            type="text"
+            required
+            placeholder="Фамилия"
+          />
+
+          <input
+            class="registration__input"
+            name="entry.1965190072"
+            type="text"
+            required
+            placeholder="Номер телефона"
+          />
+
+          <select class="registration__select" name="entry.256749909">
+            <option value="Парный Взрослый Абонемент + Место под палатку">
+              Парный Взрослый Абонемент + Место под палатку
+            </option>
+            <option value="Взрослый Абонемент">Взрослый Абонемент</option>
+            <option value="Детский Абонемент">Детский Абонемент</option>
+            <option value="Место под палатку">Место под палатку</option>
+            <option value="Место на парковке">Место на парковке</option>
+          </select>
+
+          <button class="registration__button" type="submit">
+            Забронировать
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
